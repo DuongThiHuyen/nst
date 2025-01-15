@@ -1,0 +1,9 @@
+After considering the teacher's feedback following the presentation on January 7th, our team revisited the study and incorporated several significant modifications.
+1. Add FID Metric for Evaluation: FID (Fréchet Inception Distance) is a metric used to evaluate the difference between two feature distributions of images.
+Compare style image and output image to evaluate how effectively the style of the style image has been transferred to the output image.
+?  Low FID (close to 0):
+* A low FID score, such as 0.163, indicates that output image and style image have highly similar features when compared in the feature space of VGG19.
+* This means that the neural style transfer model has successfully recreated the style of the style image in the output image.
+?  High FID:
+* A high FID score would indicate that the output image fails to replicate the style or has significant differences compared to the style image.
+2. Exploring the Role of CPU and GPU in Executing Neural Style Transfer Programs
